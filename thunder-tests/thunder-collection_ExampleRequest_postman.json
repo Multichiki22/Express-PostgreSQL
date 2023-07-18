@@ -1,0 +1,106 @@
+{
+    "info": {
+        "_postman_id": "3a75c3c8-3444-4541-a4f6-0e517713ac1c",
+        "name": "ExampleRequest",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "http://localhost:3500/example",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:3500/example",
+                    "path": [
+                        "example"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3500"
+                }
+            }
+        },
+        {
+            "name": "http://localhost:3500/example",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://localhost:3500/example",
+                    "path": [
+                        "example"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3500"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n  \"exampleString\": \"exampleString\",\n  \"exampleNumber\": \"12345\"\n}"
+                }
+            }
+        },
+        {
+            "name": "http://localhost:3500/example",
+            "request": {
+                "method": "DELETE",
+                "url": {
+                    "raw": "http://localhost:3500/example",
+                    "path": [
+                        "example"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3500"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n  \"exampleString\": \"exampleString2\"\n}"
+                }
+            }
+        },
+        {
+            "name": "http://localhost:3500/example",
+            "request": {
+                "method": "PUT",
+                "url": {
+                    "raw": "http://localhost:3500/example/1",
+                    "path": [
+                        "example",
+                        "1"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3500"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n  \"exampleString\": \"exampleString2\",\n  \"exampleNumber\": \"54321\"\n}"
+                }
+            }
+        }
+    ]
+}
